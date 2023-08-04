@@ -1,12 +1,9 @@
 # Docker
 
-![Untitled](Docker%20e4f5d5d142eb4d3c89bb61faa4dcd65d/Untitled.png)
-
-![Untitled](Docker%20e4f5d5d142eb4d3c89bb61faa4dcd65d/Untitled%201.png)
-
-![Untitled](Docker%20e4f5d5d142eb4d3c89bb61faa4dcd65d/Untitled%202.png)
-
-![Untitled](Docker%20e4f5d5d142eb4d3c89bb61faa4dcd65d/Untitled%203.png)
+![Untitled](https://user-images.githubusercontent.com/55878408/214293500-70ee95a0-c4cd-4b72-b1ad-d83c2ecbf43b.png)
+![Untitled 1](https://user-images.githubusercontent.com/55878408/214293443-528cea48-e269-484f-9363-9d440811c27e.png)
+![Untitled 2](https://user-images.githubusercontent.com/55878408/214293452-fac335ad-dc4e-4a68-a82e-d0144f93f03a.png)
+![Untitled 3](https://user-images.githubusercontent.com/55878408/214293461-da052c3b-2cbc-439b-a3e5-3bf82f1df553.png)
 
 ### Microservices
 
@@ -20,7 +17,7 @@ With monolithic architectures, all processes are tightly coupled and run as a si
 
 With a microservices architecture, an application is built as independent components that run each application process as a service. These services communicate via a well-defined interface using lightweight APIs. Services are built for business capabilities and each service performs a single function. Because they are independently run, each service can be updated, deployed, and scaled to meet demand for specific functions of an application.
 
-![monolith_1-monolith-microservices.70b547e30e30b013051d58a93a6e35e77408a2a8.png](Docker%20e4f5d5d142eb4d3c89bb61faa4dcd65d/monolith_1-monolith-microservices.70b547e30e30b013051d58a93a6e35e77408a2a8.png)
+![monolith_1-monolith-microservices 70b547e30e30b013051d58a93a6e35e77408a2a8](https://user-images.githubusercontent.com/55878408/214293687-186966d1-46b4-4e6a-91d0-b3797c40bf5d.png)
 
 ### **Characteristics of Microservices**
 
@@ -94,7 +91,8 @@ Docker is a software platform that allows you to build, test, and deploy applica
 
 ### Docker vs Virtual Machines
 
-![Docker-and-Virtual-Machine-architecture.webp](Docker%20e4f5d5d142eb4d3c89bb61faa4dcd65d/Docker-and-Virtual-Machine-architecture.webp)
+![Docker-and-Virtual-Machine-architecture](https://user-images.githubusercontent.com/55878408/214294392-bc454e6d-ffb9-4982-9cfc-4f7ace213af4.png)
+
 
 ### What is a Container?
 
@@ -126,7 +124,7 @@ To create a container layer from an image, use the command **`docker create`**.
 
 Finally, after you have launched a container from an existing image, you start its service and run the application.
 
-![crating-a-docker-container.png](Docker%20e4f5d5d142eb4d3c89bb61faa4dcd65d/crating-a-docker-container.png)
+![crating-a-docker-container](https://user-images.githubusercontent.com/55878408/214293913-9c73b11a-f8a1-420a-aae7-b7ddbc3b38c6.png)
 
  If go on to the docker hub we can see the images of more than 100k apps. 
 
@@ -163,8 +161,6 @@ docker run -d -p 9000:8080 bitnami/nginx:1.23
 ```
 
 docker: Error response from daemon: driver failed programming external connectivity on endpoint compassionate_borg (fd538ba763a62965e6c442dbbdeeb2f97e15cefbc905f065fec615f9ebfcff8a): Bind for 0.0.0.0:9000 failed: port is already allocated.
-
-![Untitled](Docker%20e4f5d5d142eb4d3c89bb61faa4dcd65d/Untitled%204.png)
 
 To overcome this error we have to do something called as port binding.
 
@@ -323,7 +319,7 @@ One of the reasons Docker containers and services are so powerful is that you ca
 
 Docker takes care of the networking aspects so that the containers can communicate with the other containers and also the Docker Host. If you do an **ifconfig** on the Docker Host, you will see the Docker Ethernet adapter. This adapter is created when docker is installed on the Docker Host.
 
-![Untitled](Docker%20e4f5d5d142eb4d3c89bb61faa4dcd65d/Untitled%205.png)
+![Untitled 5](https://user-images.githubusercontent.com/55878408/214307345-41660144-7f99-41bb-b2dc-2e5915f7535a.png)
 
 ### Advantages of Docker Networking
 
@@ -342,3 +338,11 @@ Docker takes care of the networking aspects so that the containers can communica
 - none
 
 ### [Cheatsheet Link](https://dockerlabs.collabnix.com/docker/cheatsheet/)
+
+### Important links:
+
+[https://medium.com/free-code-camp/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b](https://medium.com/free-code-camp/a-beginner-friendly-introduction-to-containers-vms-and-docker-79a9e3e119b)
+
+[https://towardsdatascience.com/how-docker-can-help-you-become-a-more-effective-data-scientist-7fc048ef91d5](https://towardsdatascience.com/how-docker-can-help-you-become-a-more-effective-data-scientist-7fc048ef91d5)
+
+[https://dockerlabs.collabnix.com/docker/cheatsheet/](https://dockerlabs.collabnix.com/docker/cheatsheet/)
